@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 0. Reset ================================= */
+/* 
+If you want to add partials, use Sass Modules via @use:
+@use 'variables';
+
+Usage: partial-name.variable/mixin/function-name:
+background: variables.$primary-color;
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2e3032;
+}
+
+/* 2. Content ================================= */
+.ad {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+.ad.ad-300-250 {
+  width: 300px;
+  height: 250px;
+}
+.ad.ad-720-90 {
+  width: 720px;
+  height: 90px;
+}
+.ad.ad-160-600 {
+  width: 160px;
+  height: 600px;
+}
+
+.ad-tlou {
+  background-color: black;
+}
+.ad-tlou h1 {
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+  font-size: 20pt;
+  text-align: center;
+  width: 100%;
+  color: white;
+  top: 9%;
+}
+.ad-tlou h2 {
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-weight: lighter;
+  font-size: 19pt;
+  text-align: center;
+  width: 100%;
+  color: #aaa;
+}
+.ad-tlou .goty {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 30%;
+}
+.ad-tlou .firefly {
+  position: absolute;
+  width: 40%;
+  top: 40%;
+  left: 55%;
+}
+
+.ad-tlou-two {
+  background-color: black;
+}
+.ad-tlou-two h1 {
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+  font-size: 20pt;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.ad-tlou-two h2 {
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-weight: lighter;
+  font-size: 19pt;
+  text-align: center;
+  width: 100%;
+  color: #aaa;
+}
+.ad-tlou-two .goty {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  top: 40%;
+}
+.ad-tlou-two .firefly {
+  position: absolute;
+  width: 10%;
+  top: -10%;
+  left: 55%;
+}
+
+.ad-tlou-three {
+  background-color: black;
+}
+.ad-tlou-three h1 {
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+  font-size: 20pt;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.ad-tlou-three h2 {
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-weight: lighter;
+  font-size: 19pt;
+  text-align: center;
+  width: 100%;
+  color: #aaa;
+}
+.ad-tlou-three .goty {
+  position: absolute;
+  width: 200%;
+  left: -50%;
+  top: 30%;
+}
+.ad-tlou-three .firefly {
+  position: absolute;
+  width: 45%;
+  top: 40%;
+  left: 29%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,178 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+
+/* 
+If you want to add partials, use Sass Modules via @use:
+@use 'variables';
+
+Usage: partial-name.variable/mixin/function-name:
+background: variables.$primary-color;
+*/
+
+@use 'reset';
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(46, 48, 50);
+}
+
+/* 2. Content ================================= */
+
+.ad{
+	position: relative;
+	overflow: hidden;
+	border: 1px solid black;
+	margin-bottom: 2rem;
+	
+
+	&.ad-300-250{
+		width: 300px;
+		height: 250px;
+	}
+
+	&.ad-720-90{
+		width: 720px;
+		height: 90px;
+	}
+
+	&.ad-160-600{
+		width: 160px;
+		height: 600px;
+	}
+}
+
+.ad-tlou{
+	background-color: black;
+
+	h1{
+		position: absolute;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: bolder;
+		font-size: 20pt;
+		text-align: center;
+		width: 100%;
+		color: white;
+		top: 9%;
+	}
+
+	h2{
+		position: absolute;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: lighter;
+		font-size: 19pt;
+		text-align: center;
+		width: 100%;
+		color: #aaa;
+	}
+
+	.goty{
+		position: absolute;
+		width: 80%;
+		left: 10%;
+		top: 30%;
+		
+	}
+
+	.firefly{
+		position: absolute;
+		width: 40%;
+		top: 40%;
+		left: 55%;
+	}
+}
+.ad-tlou-two{
+	background-color: black;
+
+	h1{
+		position: absolute;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: bolder;
+		font-size: 20pt;
+		text-align: center;
+		width: 100%;
+		color: white;
+	}
+
+	h2{
+		position: absolute;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: lighter;
+		font-size: 19pt;
+		text-align: center;
+		width: 100%;
+		color: #aaa;
+	}
+
+	.goty{
+		position: absolute;
+		width: 20%;
+		left: 40%;
+		top: 40%;
+		
+	}
+
+	.firefly{
+		position: absolute;
+		width: 10%;
+		top: -10%;
+		left: 55%;
+	}
+}
+
+.ad-tlou-three{
+	background-color: black;
+
+	h1{
+		position: absolute;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: bolder;
+		font-size: 20pt;
+		text-align: center;
+		width: 100%;
+		color: white;
+	}
+
+	h2{
+		position: absolute;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: lighter;
+		font-size: 19pt;
+		text-align: center;
+		width: 100%;
+		color: #aaa;
+	}
+
+	.goty{
+		position: absolute;
+		width: 200%;
+		left: -50%;
+		top: 30%;
+		
+	}
+
+	.firefly{
+		position: absolute;
+		width: 45%;
+		top: 40%;
+		left: 29%;
+	}
+}
